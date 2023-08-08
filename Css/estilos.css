@@ -1,0 +1,97 @@
+/* Resetear estilos por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contenedor {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 350px;
+  max-width: 100%;
+}
+
+/* Estilos para el formulario */
+.formulario {
+  text-align: center;
+}
+
+.formulario h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.email,
+.pass {
+  margin-bottom: 15px;
+}
+
+.email label,
+.pass label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.email input,
+.pass input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn {
+  margin-top: 25px;
+}
+
+.btn input {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn input:hover {
+  background-color: #0056b3;
+}
+
+.enlace {
+  margin-top: 15px;
+}
+
+.enlace img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.enlace a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.enlace a:hover {
+  text-decoration: underline;
+}
+
+
